@@ -1,4 +1,4 @@
-##Linux commands
+## Linux commands
 - Create a Dir `mkdir name_of_folder`
 - Go inside the Dir `cd name of the dir`
 - Come out of the Dir `cd ..` or ``cd``
@@ -15,13 +15,12 @@
 - Copy files or group of files or directory `cp first_file second_file`
 - `man` command in linux is used to display the user manual of any command that we can run on the terminal
 
-#####To check hidden files and directories
+##### To check hidden files and directories
 
 **ls -a**
 
-#####The Manual, flags
 
-#####What is wildcards and How to use wildcards
+##### What is wildcards and How to use wildcards
 A wildcard in Linux is a symbol or a set of symbols that stands in for other characters. It can be used to substitute for any other character or characters in a string. For example, you can use a wildcard to get a list of all files in a directory that begin with the letter O.
 
 Three types of wildcards are common in Linux:
@@ -31,10 +30,10 @@ Three types of wildcards are common in Linux:
 Bracketed values – match characters enclosed in square brackets. For example, O[ac]d matches only Oad and Ocd. You can also specify a range of values: O[a-e]d matches Oad, Obd, Ocd, Odd and Oed.
 
 
-#####How can you do process management
+##### How can you do process management
 **An instance of a program is called a Process. In simple terms, any command that you give to your Linux machine starts a new process.**
 
-- **Fg** - use the command "fg" to continue a program which was stopped and bring it to the foreground `fg processname`
+- `Fg` - use the command "fg" to continue a program which was stopped and bring it to the foreground `fg processname`
 - `Top` - This utility tells the user about all the running processes on the Linux machine.
 - `PS` - This command stands for 'Process Status'. It is similar to the "Task Manager" that pop-ups in a Windows Machine when we use Cntrl+Alt+Del.
 - `Kill` - This command terminates running processes on a Linux machine.
