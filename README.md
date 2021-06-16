@@ -17,7 +17,7 @@
 
 ##### To check hidden files and directories
 
-**ls -a**
+`ls -a`
 
 
 ##### What is wildcards and How to use wildcards
